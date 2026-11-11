@@ -114,3 +114,11 @@ footer {
         margin: 25px 15px;
     }
 }
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:focus {
+    outline: 2px solid #70b7ff;
+    outline-offset: 4px;
+}
